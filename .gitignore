@@ -1,0 +1,18 @@
+# ignorar archivos con:
+*.tfstate
+*.tfstate.*
+*.tfplan
+**/.terraform/*
+crash.log
+*.tf.json
+.aws/credentials
+*.tfstate.backup
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+terraform.d/
+.terraformrc
