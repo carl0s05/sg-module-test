@@ -47,6 +47,4 @@ resource "aws_security_group" "sg_group" {
   lifecycle {
     ignore_changes = [tags["Date/Time"]]
   }
-
-
 }
